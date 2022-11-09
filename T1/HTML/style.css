@@ -16,7 +16,7 @@ body {
 header {
   width: 100vw;
   height: 50vh;
-  background-image: url(/imagen/space.jpg);
+  background-image: url(../imagen/space.jpg);
   background-position: bottom;
   background-size: cover;
   display: flex;

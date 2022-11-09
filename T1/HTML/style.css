@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cuerpo */
+body {
+  background-color: #fff;
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  margin: 0px auto;
+}
+
+/* Encabezado */
+header {
+  width: 100vw;
+  height: 50vh;
+  background-image: url(/imagen/space.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* Contenido */
+.header-content {
+  margin-bottom: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Contenido 1 */
+.header-content h1{
+  font-weight: 600;
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Contenido 2 */
+.header-content h2{
+  font-size: 4vmin;
+}
+
+/* Linia */
+.line{
+  width: 30rem;
+  height: 5px;
+  background: red;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+/* Div o contenedor */
+.container {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin: 0px auto;
+  margin-top: 3rem;
+  align-items: center;
+  border-color: 1rem solid white;
+  border-radius: 3rem;
+}
+
+.parrafo {
+  font-size: 1rem;
+  text-align: center;
+  color: dimgray;
+  align-content: center;
+  bottom: 2rem;
+}
+
+/* Tabla */
+table {
+  background: white;
+  width: 800px;
+  height: 600px;
+  border-collapse: collapse;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 10px 10px 10px #b0b0b0, -10px -10px 15px #ffffff;
+}
+
+/* Fila 1 */
+.fila1 {
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+/* Fila 2 - Links */
+.fila2 {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Fila 3 */
+.fila3 {
+  margin: 0px;
+  justify-content: center;
+}
+
+/* Nombre de los autores */
+.integrant {
+  background: #0b3d91;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-align: center;
+  color: #fff;
+}
+
+/* Links de las Páginas */
+.link {
+  width: 1rem;
+  height: 2rem;
+  background: white;
+  padding: 1.5rem;
+  cursor: pointer;
+  margin: 0px auto;
+}
+
+/* Links */
+a {
+  color: #0b3d91;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  background: red;
+  border-radius: 5px;
+  background: linear-gradient(225deg, #ffffff, #e6e6e6);
+}
+
+/* Quitar efecto a los links */
+a :hover {
+  color: yellow;
+}
+
+/* imágenes */
+img {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.lista1 {
+  width: 100%;
+  height: 100%;
+  background: lightgray;
+  margin: 0;
+  padding: 2rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.lista2{
+  width: 100%;
+  height: 100%;
+  background: lightgray;
+  margin: 0;
+  padding: 2rem;
+  font-size: 1rem;
+  text-align: left;
+
+}
+
+.tabla-img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 3rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.galery{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding: 3rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px #b0b0b0, -10px -10px 15px #ffffff;
+
+}
+
+/* Fila 4 */
+.fila4 {
+  background-color: #0b3d91;
+  color: #fff;
+}
